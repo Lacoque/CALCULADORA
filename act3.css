@@ -1,0 +1,51 @@
+body{
+    background-image: url('https://i.pinimg.com/564x/c1/da/c3/c1dac39240d1a1a6305ff759ad55d35a.jpg');
+}
+
+header{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    word-spacing: 1.6px;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase
+}
+
+#calcu{
+    width: 400px;
+    background:yellowgreen;
+    padding: 300px;
+    border-radius: 20px;
+    outline: 7px #000000;
+    
+}
+
+#num1, #num2{
+ width: 200px;
+ height: 50px;
+ font-size: 40px;
+ margin-bottom: 5px;
+}
+
+#res{
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+}
+
+input{ 
+    width: 34px;
+    height: 30px;
+    font-size: 20px;
+}
+
+footer{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+

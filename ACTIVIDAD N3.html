@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<link rel="stylesheet" type="text/css" href="act3.css" />
+		<TITLE>CALCULOS </TITLE>
+		<link rel="icon" href="bananin.jpg" />  
+	
+		
+
+	</HEAD>
+	<BODY  bgcolor="yellowgreen">
+		<header>Calculadora basic</header> 
+
+		<center>
+		<form id="calcu">
+			<div style="width: 50%;	float: left;">
+				<input type="number" id="num1">
+				<input type="number" id="num2">
+				<input type="number" disabled placeholder="Resultado" id="res">
+			</div>
+			<table>
+				<tr>
+					<td>
+						<input type="button" onclick="calcular('+')" value="+">
+					</td>
+					<td>
+						<input type="button" onclick="calcular('-')" value="-">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" onclick="calcular('*')" value="x">
+					</td>
+					<td>
+					<input type="button" onclick="calcular('/')" value="%">
+					</td>
+				</tr>
+			</table>
+		</form>
+	
+	</center>
+
+		<script>
+			function calcular(operacion){
+				n1 = parseInt(document.getElementById("num1").value)
+				n2 = parseInt(document.getElementById("num2").value)
+				switch (operacion) {
+					case '+':
+					document.getElementById("res").value = n1+n2
+						break;
+
+						case '-':
+							document.getElementById("res").value=n1-n2
+							break;
+							case '/':
+					document.getElementById("res").value = n1/n2
+						break;
+						case '*':
+					document.getElementById("res").value = n1*n2
+						break;
+					default:
+						break;
+					}
+				}	
+								
+			
+		</script>
+		
+
+		<footer> <p>Pame Lacoque</p> </footer>
+	
+	</BODY>
+</HTML>
